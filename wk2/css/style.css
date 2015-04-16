@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font:100%/1.5 'Open Sans', sans-serif, Arial, sans-serif; 
+}
+
+/*  Fonts
+--------------------------- */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #555555;
+	font-weight:400; 
+}
+
+button, .button {
+	font-family: 'Source Sans Pro', sans-serif;	
+	font-weight:400; 
+
+}
+
+.top-bar-section  ul li > a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600; 
+	font-size: 1rem;
+}
+
+/* Header 
+----------------------- */
+header {	
+  	background-position: top center;
+    background-repeat: repeat;
+    background-color: #1490D1;   
+}
+
+/* Navigation */
+@media only screen and (min-width: 40.063em) {
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background:#ADA8A8;
+}
+}
+
+.top-bar, body > header > div.navigation-bar > div, .top-bar-section ul li, .top-bar.expanded .title-area {
+	background:#ADA8A8!important;
+}
+
+body > header > div.navigation-bar {
+	border-top:1px solid #fff;
+}
+
+/* mobile view */
+.top-bar .toggle-topbar {  
+  width: 100%;
+}
+
+.logo {
+	height:100px;
+	padding-top:25px;
+}
+
+.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
+  padding:0;
+}
+
+/* Search bar - right side */
+body > header > div.row > div > div.large-4.columns.right > form {
+	margin-top:10px;
+}
+
+
+/*   TITLE
+------------------------ */
+.title {
+	background-color:#f1f1f1;
+	background-image: url(../img/title-shadow.png);
+	background-position:top center;
+	background-repeat:no-repeat;
+	margin-bottom: 35px;
+}
+
+.title h1 {
+	color: #777777;
+    font-weight: 400;
+}
+
+/* CTA - intro section on homepage
+------------------------------------------ */
+.intro {
+	background: url(../img/title-shadow.png) no-repeat top center, url(../img/intro.jpg);
+	height:400px;
+	margin-bottom:35px;
+}
+
+.introText {
+	width: 85%;
+  	margin: 50px auto;
+}
+
+
+.home-search {
+    margin: 0 auto;
+    width:80%;
+}
+
+body > div.intro > div > div > section > h1 {
+	color:#fff;
+	font-weight:400;
+	font-size:2.5em;
+}
+
+#search > label {
+	color:#fff;
+	font-weight:400;
+	font-size:1.5em;
+	margin-bottom: 5%;
+}
+
+#search > label > input[type="text"] {
+	border-radius: 10px; 
+	 padding: 30px 15px;   
+}
+
+body > div.row > div.large-8.columns > div:nth-child(6) > a {
+background-color:#FFDE18;
+color:#333333;
+}
+
+body > div.row > div.large-8.columns > div:nth-child(6) > a:hover {
+	background-color:#ADA8A8;
+	color:#fff;
+}
+
+/* ELEMENTS 
+---------------------- */
+.button.secondary {
+  background-color: #5F5F5F; 
+  color: #FFFFFF;
+}
+
+/*   FOOTER 
+------------------ */
+.footer {
+  background-color: #333333;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 3rem;
+  margin-top:50px; }
+  .footer p.slogan {
+    color: #8d9093;
+    font-size: 1.8rem;
+    margin: 0 0 1rem; }
+  .footer p.copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0; }
+  .footer .links a {
+    list-style: none;    
+    color: #ffffff;
+    padding: 3rem 0 2rem;
+    margin: 0; }
+    .footer .links a::after {
+      content: "•";
+      padding: 0 0.4rem 0 0.8rem; }
+    .footer .links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
