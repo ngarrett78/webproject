@@ -102,7 +102,7 @@ body > header > div.row > div > div.large-4.columns.right > form {
     width:80%;
 }
 
-body > div.intro > div > div > section > h1 {
+body > div.show-for-medium-up > div > div > div > section > h1 {
 	color:#fff;
 	font-weight:400;
 	font-size:2.5em;
@@ -129,6 +129,27 @@ body > div.row > div.large-8.columns > div:nth-child(6) > a:hover {
 	background-color:#ADA8A8;
 	color:#fff;
 }
+
+/* smaller screen adjustments using Foundation visibility */
+.intro-small #search {
+	width:100%;
+}
+
+.intro-small .introText {
+	width:100%;
+	margin:0;
+	text-align:center;
+}
+
+.intro-small #search > label {
+	color:#777777;
+}
+
+.intro-small > .row {
+	  background: url(../img/title-shadow.png) #f5f5f5 no-repeat top center;
+}
+
+
 
 /* ELEMENTS 
 ---------------------- */
