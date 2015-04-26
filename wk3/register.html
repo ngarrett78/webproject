@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Viewport settings for mobile devices -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+
+
+    <title>Register | Theme World</title>
+    	<meta name="description" content="Find the top selling, premium themes for WordPress, eCommerce and HTML">
+    	<meta name="author" content="ThemeWorld">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Scripts -->
+    <script src="js/vendor/modernizr.js"></script>
+
+       <!-- Google Fonts  -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,600' rel='stylesheet' type='text/css'>
+    <!-- end Fonts -->   
+    
+</head>
+<body id="register">
+	<header>
+		<!-- logo -->
+		<div class="row">
+		<div class="logo">
+			<div class="large-8 columns">				
+					<img alt="logo" src="img/logo-300.png" />
+			</div>
+				<!-- Search box in header -->
+			<div class="large-4 columns right">
+          		<form>
+            		<div class="row collapse">
+              			<div class="large-10 small-8 columns">
+                			<input type="text"/>
+              			</div>
+					
+              			<div class="large-2 small-4 columns">
+                		<a href="#" class="postfix button expand">Search</a>
+              			</div>
+            		</div>
+          		</form>
+			</div>			
+		</div>
+		</div>
+
+		<!-- navigation menu - top left -->
+			
+		<div class="navigation-bar">
+
+			<!-- mobile menu -->
+			<div class="contain-to-grid sticky">
+				<nav class="top-bar" data-topbar role="navigation">
+  					<ul class="title-area">
+    					<li class="name">
+      						<h1><a href="#"></a></h1>
+    					</li>
+     					<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    					<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  					</ul> 
+  					<!-- End mobile menu --> 
+
+	  				<!-- start primary navigation -->
+	  				<section class="top-bar-section">
+	    			<!-- Left Nav Section -->
+	    			<ul class="left" id="navlist">
+                <li><a id="homenav" href="index.html">Home</a></li>
+                <li><a id="resultsnav" href="results.html">Results</a></li>
+                <li><a id="detailsnav" href="details.html">Details</a></li>
+                <li><a id="favnav" href="favorites.html">Favorites</a></li>
+                <li><a id="loginnav" href="login.html">Login</a></li>
+                <li><a id="registernav" href="register.html">Register</a></li>
+            </ul>
+	      				
+	          							
+	  				</section>
+	  			</nav>					
+			</div> <!-- close sticky grid -->
+		</div>	<!-- close navigation-bar div -->	 
+
+	</header>
+
+	<!-- Page titles -->
+	<div class="title">
+			<div class="row">
+				<div class="small-12 columns">
+					<h1>Register</h1>
+				</div>
+			</div>
+		</div>	
+
+		<!-- inline html for login and register links --> 
+
+	<div class="row">
+	<div class="large-8 columns">
+
+            <!-- Registration Form -->
+            <div class="reg-form">
+                
+                    <h4>Register for the full benefits! <i class="fa fa-thumbs-o-up"></i></h4>
+
+                    <div class="left-half">
+                        <label>First Name :</label>
+                        <input type="text" name="fname" class="masterTooltip" title="Your real first name" id="firstname" >
+                    </div>
+
+                    <div class="right-half">
+                        <label>Last Name :</label>
+                        <input type="text" name="lname" class="masterTooltip" title="Your real last name"
+                               id="lastname" >
+                    </div>
+
+                    <div class="left-half">
+                        <label>Username :</label>
+                        <input type="text" name="uname" class="masterTooltip" title="Pick your username here"
+                               id="username" >
+                    </div>
+
+                    <div class="right-half">
+                        <label>Email :</label>
+                        <input type="text" name="email" class="masterTooltip" title="Legit email address" id="email" >
+                    </div>
+
+                    <div class="left-half">
+                        <label>Password :</label>
+                        <input type="password" name="password" class="masterTooltip" title="Choose a secure password" id="password" >
+                    </div>
+
+                    <div class="right-half">
+                        <label>Confirm Password :</label>
+                        <input type="password" name="cpassword" class="masterTooltip" title="One more time with that password" id="cpassword" >
+                    </div>            
+
+
+                    <button id="register" class="masterTooltip " title="Get Started!"
+                            value="Let's Do This!"> Register!</button>           
+       
+		
+			</div>
+		</div>
+
+		<div class="large-4 columns show-for-large-up">
+		  <img class="th" alt="responsive-ad" src="img/responsive.jpg">
+          
+          <img class="th" alt="package-ad" src="img/purple.jpg"/>
+
+		</div>
+	</div>
+		
+	<!-- begin footer -->
+	<footer class="footer">
+  <div class="row">
+    <div class="small-12 columns">      
+      <p class="links">
+        <a href="index.html">Home</a>
+        <a href="results.html">Results</a>
+        <a href="details.html">Details</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+      </p>
+      <p class="copywrite">Copywrite © 2015 - ThemeWorld | Full Sail University</p>
+    </div>
+  </div>
+</footer>
+
+	<!-- jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<!-- Foundation scripts -->
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/fastclick.js"></script>
+	<script src="js/foundation.min.js"></script>
+
+	<script>
+    $(document).foundation();
+  </script>
+    
+</body>
+</html>
